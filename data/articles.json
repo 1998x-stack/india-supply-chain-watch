@@ -1,0 +1,701 @@
+[
+  {
+    "slug": "ecms-launch-2025",
+    "kind": "政策原始资料",
+    "category": "产业政策",
+    "date": "2025-03-28",
+    "title": "印度批准电子元器件制造计划：初始资金 ₹22,919 crore",
+    "excerpt": "印度政府宣布支持本土电子元器件生态，计划以补贴吸引国内外投资。",
+    "takeaway": "关注 PCB、基础材料、电子部件及制造设备的补贴适用条件；获批预算不等于所有资金已发放。",
+    "points": [
+      "ECMS 初始资金规模为 ₹22,919 crore，约 2,291.9 亿卢比。",
+      "官方目标包括本土增加值、制造能力建设与参与全球价值链。",
+      "具体企业享受补贴需要满足相应计划资格与审批要求。"
+    ],
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2116174&lang=2&reg=48",
+    "publishedAt": "2025-03-28",
+    "checkedAt": "2026-09-24",
+    "sourceType": "政府原始资料",
+    "verification": "原始来源可核对；企业实际进度须另行核实",
+    "tags": [
+      "产业政策",
+      "电子制造"
+    ]
+  },
+  {
+    "slug": "pcb-trade-investigation-2025",
+    "kind": "调查进展",
+    "category": "贸易与合规",
+    "date": "2025-09-26",
+    "title": "印度对中国来源的特定 PCB 工具发起反倾销调查",
+    "excerpt": "印度贸易救济总局公布 PCB Tools 反倾销调查，产品范围与调查程序应以原始通知为准。",
+    "takeaway": "相关出口企业应核对产品描述、海关编码、调查期限及后续官方公告；立案不等于最终征税。",
+    "points": [
+      "案件编号为 06/46/2025-DGTR。",
+      "原始立案公告日期为 2025 年 9 月 26 日。",
+      "产品范围并不自动覆盖所有 PCB 裸板或 PCBA 产品。"
+    ],
+    "sourceLabel": "印度贸易救济总局 DGTR",
+    "sourceUrl": "https://www.dgtr.gov.in/en/anti-dumping-cases/anti-dumping-investigation-concerning-imports-printed-circuit-board-tools",
+    "publishedAt": "2025-09-26",
+    "checkedAt": "2026-09-24",
+    "sourceType": "监管案件",
+    "verification": "原始来源可核对；适用情形须核对最新文本",
+    "tags": [
+      "PCB工具",
+      "反倾销",
+      "贸易救济"
+    ]
+  },
+  {
+    "slug": "ecms-first-seven-pcb-2025",
+    "kind": "获批项目",
+    "category": "PCB / PCBA",
+    "date": "2025-10-27",
+    "title": "印度首批七个 ECMS 项目获批，涉及 PCB 与覆铜板",
+    "excerpt": "官方宣布首批七个电子元器件项目获批，计划投资合计 ₹5,532 crore。",
+    "takeaway": "区分获批项目、在建项目、实际投产与稳定量产，不要把规划产能直接视为现有产量。",
+    "points": [
+      "首批七个项目计划投资合计 ₹5,532 crore。",
+      "公告提及 PCB 与覆铜板等产业环节。",
+      "项目预期产出是政策目标，而非已经实现的销售收入。"
+    ],
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2182986&lang=2&reg=3",
+    "publishedAt": "2025-10-27",
+    "checkedAt": "2026-09-24",
+    "sourceType": "政府原始资料",
+    "verification": "原始来源可核对；企业实际进度须另行核实",
+    "tags": [
+      "PCB / PCBA",
+      "电子制造"
+    ]
+  },
+  {
+    "slug": "ecms-second-tranche-2025",
+    "kind": "获批项目",
+    "category": "服务器与电子制造",
+    "date": "2025-11-17",
+    "title": "印度 ECMS 第二批批准 17 个制造项目",
+    "excerpt": "印度官方公布第二批电子元器件制造项目，披露计划投资、预期产出和就业等指标。",
+    "takeaway": "追踪供应链迁移时，应以项目具体产品和企业后续投产披露为准。",
+    "points": [
+      "第二批涉及 17 个项目。",
+      "官方披露的计划投资为 ₹7,172 crore。",
+      "项目获批不等于技术能力与量产良率已经满足商业采购要求。"
+    ],
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190872&lang=2&reg=3",
+    "publishedAt": "2025-11-17",
+    "checkedAt": "2026-09-24",
+    "sourceType": "政府原始资料",
+    "verification": "原始来源可核对；企业实际进度须另行核实",
+    "tags": [
+      "服务器与电子制造",
+      "电子制造"
+    ]
+  },
+  {
+    "slug": "ecms-budget-2026",
+    "kind": "政策原始资料",
+    "category": "产业政策",
+    "date": "2026-02-03",
+    "title": "印度 2026—2027 财年将 ECMS 总资金提高至 ₹40,000 crore",
+    "excerpt": "印度预算相关资料披露 ECMS 资金规模由最初的 ₹22,919 crore 提升至 ₹40,000 crore。",
+    "takeaway": "关注政策预算、实际项目审批与激励兑现三者的差别；不要将预算增量直接等同于新增补贴发放。",
+    "points": [
+      "印度政府公告 ECMS 总资金规模提升至 ₹40,000 crore。",
+      "约合 4,000 亿卢比，印度数字单位 crore 为一千万卢比。",
+      "具体产品、项目门槛和申请程序应查询配套计划文件。"
+    ],
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2222519&lang=1&reg=22",
+    "publishedAt": "2026-02-03",
+    "checkedAt": "2026-09-24",
+    "sourceType": "政府原始资料",
+    "verification": "原始来源可核对；企业实际进度须另行核实",
+    "tags": [
+      "产业政策",
+      "电子制造"
+    ]
+  },
+  {
+    "slug": "micron-sanand-2026",
+    "kind": "企业官方披露",
+    "category": "半导体",
+    "date": "2026-02-28",
+    "title": "美光宣布印度萨南德半导体封装测试工厂正式开业",
+    "excerpt": "美光披露印度萨南德工厂启用，并说明项目从其全球制造网络接收晶圆进行封装和测试。",
+    "takeaway": "企业在印度有制造设施，不意味着第三方招商人员拥有特定芯片的供货授权；仍需验证具体型号、合同及出口合规。",
+    "points": [
+      "工厂位于印度古吉拉特邦萨南德。",
+      "项目定位为半导体封装和测试，而不是将所有 DRAM/NAND 前道晶圆制造搬到印度。",
+      "美光与政府合作伙伴披露的合计投资约为 27.5 亿美元。"
+    ],
+    "sourceLabel": "Micron 官方投资者公告",
+    "sourceUrl": "https://stage-investors.micron.com/news/press-release/2026/Micron-Celebrates-Opening-of-Indias-First-Semiconductor-Assembly-and-Test-Facility-02-28-2026/default.aspx",
+    "publishedAt": "2026-02-28",
+    "checkedAt": "2026-09-24",
+    "sourceType": "企业公告",
+    "verification": "原始来源可核对；企业实际进度须另行核实",
+    "tags": [
+      "DRAM",
+      "NAND",
+      "封装测试",
+      "半导体"
+    ]
+  },
+  {
+    "slug": "ecms-29-projects-2026",
+    "kind": "获批项目",
+    "category": "服务器与电子制造",
+    "date": "2026-03-30",
+    "title": "印度 ECMS 再批准 29 个电子元器件项目",
+    "excerpt": "政府公告披露新一批 29 个项目及投资、预期就业和生产领域。",
+    "takeaway": "建立按产品和地区划分的项目台账，比仅跟踪招商口号更适合供应链研究。",
+    "points": [
+      "本批获批项目为 29 个。",
+      "官方披露计划投资约 ₹7,104 crore。",
+      "涉及移动通信、汽车电子、IT 硬件等不同应用领域。"
+    ],
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247040&lang=1&reg=1",
+    "publishedAt": "2026-03-30",
+    "checkedAt": "2026-09-24",
+    "sourceType": "政府原始资料",
+    "verification": "原始来源可核对；企业实际进度须另行核实",
+    "tags": [
+      "服务器与电子制造",
+      "电子制造"
+    ]
+  },
+  {
+    "slug": "china-outbound-investment-2026",
+    "kind": "法规原文",
+    "category": "贸易与合规",
+    "date": "2026-07-01",
+    "title": "中国《国务院关于对外投资的规定》施行：技术转移与安全审查需分开核对",
+    "excerpt": "国务院令第 837 号自 2026 年 7 月 1 日起施行，对外投资及相关安全事项有明确规定。",
+    "takeaway": "不能把通用对外投资规定误写为全面禁止赴印度投资；具体技术输出需结合出口管制和项目情况判断。",
+    "points": [
+      "文件为《国务院关于对外投资的规定》，国务院令第 837 号。",
+      "2026 年 7 月 1 日起施行。",
+      "涉及受控技术、数据及相关跨境转移时，应对照原文条款与适用许可进行核查。"
+    ],
+    "sourceLabel": "中国政府网",
+    "sourceUrl": "https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/content/202606/content_7070755.htm",
+    "publishedAt": "2026-06-01",
+    "checkedAt": "2026-09-24",
+    "sourceType": "政府原始资料",
+    "verification": "原始来源可核对；适用情形须核对最新文本",
+    "tags": [
+      "跨境合规",
+      "贸易政策"
+    ]
+  },
+  {
+    "slug": "ecms-progress-august-2026",
+    "kind": "产业数据",
+    "category": "产业政策",
+    "date": "2026-08-17",
+    "title": "截至 2026 年 8 月，印度 ECMS 累计获批 106 个项目",
+    "excerpt": "印度政府披露电子元器件计划进展，其中 38 座工厂开始运营。",
+    "takeaway": "将获批、在建和投产项目分别跟踪，避免将计划投资与已完成投资混用。",
+    "points": [
+      "截至 2026 年 8 月，累计获批 106 个项目。",
+      "公告披露获批投资约 ₹69,548 crore。",
+      "其中 38 座工厂处于运营状态，另有 16 个项目处于建设或设备安装后期。"
+    ],
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300625&lang=1&reg=48",
+    "publishedAt": "2026-08-17",
+    "checkedAt": "2026-09-24",
+    "sourceType": "政府原始资料",
+    "verification": "原始来源可核对；企业实际进度须另行核实",
+    "tags": [
+      "ECMS",
+      "项目投产",
+      "产业数据"
+    ]
+  },
+  {
+    "slug": "pcb-antidumping-initiation-2023",
+    "date": "2023-01-02",
+    "publishedAt": "2023-01-02",
+    "checkedAt": "2026-09-24",
+    "title": "印度对中国及香港来源 PCB 启动反倾销调查",
+    "category": "PCB / PCBA",
+    "kind": "贸易救济案件",
+    "excerpt": "印度贸易救济总局公布针对特定印制电路板产品的调查立案及案件编号。",
+    "points": [
+      "案件编号 6/16/2022-DGAD，立案通知日期为 2023 年 1 月 2 日。",
+      "这是 PCB 裸板案件，须与 2025 年 PCB Tools 工具案件分别检索。",
+      "反倾销调查立案本身并不等同于已经征收反倾销税。"
+    ],
+    "takeaway": "企业核对涉案产品范围、后续裁定及当前税则，不要把两起 PCB 相关案件混为一谈。",
+    "sourceUrl": "https://www.dgtr.gov.in/en/anti-dumping-cases/initiation-anti-dumping-investigation-concerning-imports-printed-circuit-boards",
+    "sourceLabel": "印度贸易救济总局 DGTR",
+    "sourceType": "监管案件",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "PCB",
+      "反倾销",
+      "贸易救济"
+    ]
+  },
+  {
+    "slug": "pcb-antidumping-findings-2024",
+    "date": "2024-01-05",
+    "publishedAt": "2024-01-05",
+    "checkedAt": "2026-09-24",
+    "title": "中国及香港来源 PCB 反倾销案件公布最终调查结果",
+    "category": "PCB / PCBA",
+    "kind": "贸易救济案件",
+    "excerpt": "印度贸易救济总局 PCB 案件时间线显示最终调查结果在 2024 年 1 月 5 日公布。",
+    "points": [
+      "该案件于 2023 年 1 月 2 日立案。",
+      "官方案件页列明 2024 年 1 月 5 日的 Final Findings。",
+      "最终调查结果与后续实际征税通知不是同一份文件。"
+    ],
+    "takeaway": "进出口合同或价格决策需核实最新生效措施、产品范围、税率及有效期。",
+    "sourceUrl": "https://www.dgtr.gov.in/en/anti-dumping-cases/initiation-anti-dumping-investigation-concerning-imports-printed-circuit-boards",
+    "sourceLabel": "印度贸易救济总局 DGTR",
+    "sourceType": "监管案件",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "PCB",
+      "反倾销",
+      "贸易救济"
+    ]
+  },
+  {
+    "slug": "it-hardware-pli-2023",
+    "date": "2023-11-18",
+    "publishedAt": "2023-11-18",
+    "checkedAt": "2026-09-24",
+    "title": "印度 IT 硬件 PLI 2.0 批准 27 家制造商：包含服务器",
+    "category": "服务器与电子制造",
+    "kind": "获批项目",
+    "excerpt": "印度政府披露 IT 硬件生产激励计划第二版的 27 家获批制造商，覆盖服务器等产品。",
+    "points": [
+      "计划覆盖笔记本电脑、平板电脑、一体机、服务器及超小型设备。",
+      "官方当时披露 27 家企业获批；获批不是企业今天仍运营相同项目的保证。",
+      "该计划与 ECMS 是不同的政策工具，资金和项目数量不能混合统计。"
+    ],
+    "takeaway": "服务器板卡和整机企业应同时跟踪 IT 硬件 PLI 与 ECMS 的不同扶持对象。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1990385&lang=2&reg=3",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "服务器",
+      "IT硬件",
+      "PLI"
+    ]
+  },
+  {
+    "slug": "ecms-notification-2025",
+    "date": "2025-04-08",
+    "publishedAt": "2026-09-17",
+    "checkedAt": "2026-09-24",
+    "title": "ECMS 正式通知日期与初始批准日期不是同一天",
+    "category": "产业政策",
+    "kind": "政策原始资料",
+    "excerpt": "印度官方回顾文件明确 ECMS 于 2025 年 4 月 8 日正式通知，早于此的 3 月 28 日是内阁批准。",
+    "points": [
+      "2025 年 3 月 28 日为内阁批准日期。",
+      "2025 年 4 月 8 日为计划正式通知日期。",
+      "官方 2026 年 9 月发布的资料回顾了上述时间线，不能错写为 2026 年才启动 ECMS。"
+    ],
+    "takeaway": "建立政策时间线应分别保存批准日期、生效或通知日期和信息发布日。",
+    "sourceUrl": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=151016&lang=1&reg=48",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "ECMS",
+      "政策时间线"
+    ]
+  },
+  {
+    "slug": "ecms-optical-transceivers-nov-2025",
+    "date": "2025-11-17",
+    "publishedAt": "2025-11-17",
+    "checkedAt": "2026-09-24",
+    "title": "ECMS 第二批项目涉及光模块、电子零部件制造",
+    "category": "服务器与电子制造",
+    "kind": "获批项目",
+    "excerpt": "印度政府公布第二批 17 个 ECMS 项目，其中包括光收发器 SFP 等产品。",
+    "points": [
+      "第二批获批 17 个项目，预期投资 ₹7,172 crore。",
+      "官方公告提到 Jabil Circuit India 与 Zetchem Supply Chain Services 的 SFP 项目。",
+      "相关项目是否实际投产，应查后续公司及政府披露。"
+    ],
+    "takeaway": "对交换机、服务器及光互联供应商而言，具体光模块项目比一般电子制造投资汇总更有意义。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190872&lang=2&reg=48",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "光模块",
+      "SFP",
+      "服务器",
+      "ECMS"
+    ]
+  },
+  {
+    "slug": "ecms-22-third-tranche-2026",
+    "date": "2026-01-02",
+    "publishedAt": "2026-01-02",
+    "checkedAt": "2026-09-24",
+    "title": "印度第三批 ECMS 批准 22 个项目，涵盖 PCB、覆铜板及连接器",
+    "category": "PCB / PCBA",
+    "kind": "获批项目",
+    "excerpt": "第三批 ECMS 批准 22 个电子元器件项目，披露多个关键电子材料及配套元件方向。",
+    "points": [
+      "本批计划投资 ₹41,863 crore，官方预期直接就业 33,791 人。",
+      "涉及 PCB、连接器、摄像头模组、覆铜板等多个领域。",
+      "官方披露的投资与产量数字属于获批项目计划值，不应视为实际产销。"
+    ],
+    "takeaway": "优先按 PCB 类型、覆铜板和连接器等产品建立项目台账，后续核对产能与产品规格。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210864&lang=1&reg=1",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "PCB",
+      "覆铜板",
+      "连接器",
+      "ECMS"
+    ]
+  },
+  {
+    "slug": "ecms-nine-pcb-applicants-2026",
+    "date": "2026-01-02",
+    "publishedAt": "2026-01-02",
+    "checkedAt": "2026-09-24",
+    "title": "九家 PCB/HDI 申请方列入印度 ECMS 第三批批准项目",
+    "category": "PCB / PCBA",
+    "kind": "企业项目",
+    "excerpt": "印度政府在第三批项目公告中逐一列出九家获批的 PCB（含 HDI）相关申请企业。",
+    "points": [
+      "官方列明的九家公司包括 India Circuits、Vital Electronics、Signum Electronics、Epitome Components、BPL。",
+      "名单还包括 AT & S India、Ascent-K Circuit、CIPSA TEC India、Shogini Technoarts。",
+      "“申请获批”不能据此推断所有企业已建成特定类型 PCB 的稳定量产产线。"
+    ],
+    "takeaway": "企业项目跟踪应当记录主体、产品、申请批次与投产证据，不对获批企业作信用或违法评价。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210864&lang=1&reg=1",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "PCB",
+      "HDI",
+      "获批企业",
+      "ECMS"
+    ]
+  },
+  {
+    "slug": "india-fdi-bordering-countries-2026",
+    "date": "2026-03-10",
+    "publishedAt": "2026-03-10",
+    "checkedAt": "2026-09-24",
+    "title": "印度调整接壤国家投资审批政策：特定电子制造项目设 60 天期限",
+    "category": "贸易与合规",
+    "kind": "政策原始资料",
+    "excerpt": "印度内阁公布与接壤国家投资相关的审批政策调整，涉及持股条件和指定制造行业。",
+    "points": [
+      "不超过 10% 的非控制性受益所有权在符合其他条件时可按适用规则走自动途径，并需申报有关信息。",
+      "指定电子元器件、资本货物等领域的相关投资提案要求在 60 天内处理并决定。",
+      "指定行业的相关投资项目仍有印度居民控制等要求；60 天期限不等于一律批准。"
+    ],
+    "takeaway": "股权结构、实际控制、投资行业与审批路径应逐案核对，不能简单称为全面开放或全面禁止。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2237806&lang=1&reg=1",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "FDI",
+      "投资准入",
+      "跨境合规"
+    ]
+  },
+  {
+    "slug": "pli-electronics-disbursement-2026",
+    "date": "2026-03-27",
+    "publishedAt": "2026-03-27",
+    "checkedAt": "2026-09-24",
+    "title": "印度披露电子制造 PLI 激励实际发放数据",
+    "category": "产业政策",
+    "kind": "产业数据",
+    "excerpt": "印度商工部披露大规模电子制造与 IT 硬件 2.0 等 PLI 计划已发放激励资金。",
+    "points": [
+      "公告称相关电子产业 PLI 已发放约 ₹15,554 crore 激励。",
+      "该金额属于公告所覆盖的电子领域相关 PLI，并非 ECMS 已发放金额。",
+      "计划投资、获批预算、实际发放金额必须分别记录。"
+    ],
+    "takeaway": "建立指标字典，避免把不同计划、资金口径与实际兑现情况混为一谈。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246089&lang=1&reg=1",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "PLI",
+      "实际发放",
+      "产业数据"
+    ]
+  },
+  {
+    "slug": "india-semiconductor-two-units-may-2026",
+    "date": "2026-05-05",
+    "publishedAt": "2026-05-05",
+    "checkedAt": "2026-09-24",
+    "title": "印度批准两项新半导体制造项目：涉及复合半导体和封装",
+    "category": "半导体",
+    "kind": "获批项目",
+    "excerpt": "印度内阁公布新批准两项半导体项目，涉及古吉拉特邦的复合半导体与封装制造。",
+    "points": [
+      "两项项目获批计划投资合计约 ₹3,936 crore。",
+      "公告提及 Crystal Matrix Limited 的复合半导体与 ATMP 设施。",
+      "项目审批阶段的投资与就业数字是预测值，不代表已实现量产。"
+    ],
+    "takeaway": "比较印度芯片制造进度时，必须分清晶圆制造、复合半导体、封装和测试的不同工艺环节。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119&lang=1&reg=3",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "半导体",
+      "ATMP",
+      "复合半导体"
+    ]
+  },
+  {
+    "slug": "china-trade-secrets-rule-2026",
+    "date": "2026-06-01",
+    "publishedAt": "2026-02-28",
+    "checkedAt": "2026-09-24",
+    "title": "中国《商业秘密保护规定》施行：技术资料与访厂应分级管理",
+    "category": "贸易与合规",
+    "kind": "法规原文",
+    "excerpt": "中国市场监管总局第 126 号令于 2026 年 6 月 1 日施行，明确商业秘密保护相关要求。",
+    "points": [
+      "法规于 2026 年 2 月 24 日公布，2026 年 6 月 1 日施行。",
+      "规定涉及不正当获取、披露、使用商业秘密和保密措施。",
+      "技术秘密与一般公开知识不同；具体案件需结合受保护信息及行为证据判断。"
+    ],
+    "takeaway": "建立访厂区域限制、分级技术资料、保密审批、留痕以及对外技术交付清单。",
+    "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_a89ca909478b460595670fabe02b21d3.html",
+    "sourceLabel": "中国国家市场监督管理总局",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "商业秘密",
+      "工艺保护",
+      "技术合规"
+    ]
+  },
+  {
+    "slug": "semicon-2-2026",
+    "date": "2026-07-15",
+    "publishedAt": "2026-07-15",
+    "checkedAt": "2026-09-24",
+    "title": "印度内阁批准 Semicon 2.0：预算 ₹1,27,500 crore",
+    "category": "半导体",
+    "kind": "政策原始资料",
+    "excerpt": "新阶段半导体政策覆盖设计、设备与材料、制造设施、先进封装、研发及人才培养。",
+    "points": [
+      "印度政府披露 Semicon 2.0 预算为 ₹1,27,500 crore。",
+      "官方列出六个政策方向，既包括芯片制造也包括设备、材料与研发。",
+      "政策预算不是半导体产线已经建成、投资全部到位或芯片已量产的证据。"
+    ],
+    "takeaway": "为半导体项目打上工艺环节标签，分别追踪前道、封装测试、设备及材料。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284796&lang=1&reg=3",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "Semicon 2.0",
+      "封装测试",
+      "材料"
+    ]
+  },
+  {
+    "slug": "india-electronics-production-2026",
+    "date": "2026-07-15",
+    "publishedAt": "2026-07-15",
+    "checkedAt": "2026-09-24",
+    "title": "印度公布 2025—2026 财年电子制造与出口数据",
+    "category": "产业政策",
+    "kind": "产业数据",
+    "excerpt": "印度政府发布截至 2025—2026 财年的电子制造与出口数据，并说明包含手机等不同电子品类。",
+    "points": [
+      "官方披露 2025—2026 财年电子产品生产总值约 ₹13.1 lakh crore。",
+      "电子产品出口金额约 ₹4.24 lakh crore。",
+      "该口径覆盖广泛电子产品，不能直接推算 PCB、服务器或半导体单项市场规模。"
+    ],
+    "takeaway": "用于宏观背景数据时要保存财年和统计口径；行业市场容量另需单独测算。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284808&lang=1&reg=3",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "电子制造",
+      "出口",
+      "财年数据"
+    ]
+  },
+  {
+    "slug": "pcb-tools-hearing-2026",
+    "date": "2026-07-13",
+    "publishedAt": "2026-07-13",
+    "checkedAt": "2026-09-24",
+    "title": "PCB Tools 反倾销调查举行听证，案件仍需跟踪后续公告",
+    "category": "贸易与合规",
+    "kind": "调查进展",
+    "excerpt": "印度贸易救济总局案件页列出 2026 年 7 月 13 日听证公告；后续最终决定应独立核实。",
+    "points": [
+      "对应案件为 06/46/2025-DGTR，原立案于 2025 年 9 月 26 日。",
+      "公开案件页列出 2026 年 7 月 13 日听证事项。",
+      "听证程序不等于最终征税；应按实际产品类别查阅最新裁定。"
+    ],
+    "takeaway": "为每个贸易救济案件建立事件时间线与最新核验日期，避免长期引用过期的“调查中”描述。",
+    "sourceUrl": "https://www.dgtr.gov.in/en/anti-dumping-cases/anti-dumping-investigation-concerning-imports-printed-circuit-board-tools",
+    "sourceLabel": "印度贸易救济总局 DGTR",
+    "sourceType": "监管案件",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "PCB工具",
+      "反倾销",
+      "贸易救济"
+    ]
+  },
+  {
+    "slug": "ecms-august-named-projects-2026",
+    "date": "2026-08-17",
+    "publishedAt": "2026-08-17",
+    "checkedAt": "2026-09-24",
+    "title": "ECMS 第五批：印度公布连接器、SFP、覆铜板及设备项目申请方",
+    "category": "服务器与电子制造",
+    "kind": "企业项目",
+    "excerpt": "2026 年 8 月批准公告详细列明部分企业及产品，适合形成供应链项目名录。",
+    "points": [
+      "公告列出 Amphenol Interconnect India、Ennovi Mobility Solutions India 等连接器相关获批申请方。",
+      "光收发器相关获批申请方包括 SFO Technologies、GX Quantum Photonics、Huber Suhner Electronics。",
+      "Wipro Global Engineering and Electronic Materials 的覆铜板额外投资申请亦获批；获批不代表已经完成投资。"
+    ],
+    "takeaway": "建立“公司—产品—投资状态—官方来源”关系，避免仅凭国家或公司名称判断交易风险。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300625&lang=1&reg=48",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "连接器",
+      "光模块",
+      "覆铜板",
+      "ECMS"
+    ]
+  },
+  {
+    "slug": "india-sic-odisha-project-2026",
+    "date": "2026-09-15",
+    "publishedAt": "2026-09-15",
+    "checkedAt": "2026-09-24",
+    "title": "印度奥迪沙邦 SiC 半导体项目获特别经济区单位审批",
+    "category": "半导体",
+    "kind": "获批项目",
+    "excerpt": "印度商务部门公布 SiCSem 在奥迪沙邦设立碳化硅器件项目取得相关单位审批。",
+    "points": [
+      "印度官方称 SiCSem 拟投资 ₹3,406 crore。",
+      "项目计划生产 SiC 二极管及 SiC MOSFET 等器件。",
+      "特区单位审批并不等于工厂已经建成并形成稳定量产。"
+    ],
+    "takeaway": "功率电子供应链分析应单独跟踪 SiC 器件，不直接把该项目当作通用 AI GPU 生产。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310397&lang=2&reg=48",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "SiC",
+      "功率半导体",
+      "奥迪沙"
+    ]
+  },
+  {
+    "slug": "ecms-september-background-2026",
+    "date": "2026-09-17",
+    "publishedAt": "2026-09-17",
+    "checkedAt": "2026-09-24",
+    "title": "印度最新 ECMS 专题披露电子产业链从组装向元器件延伸",
+    "category": "产业政策",
+    "kind": "专题解读",
+    "excerpt": "印度政府发布 ECMS 专题，详细区分制造业规模、项目批准、关键元件以及政策目标。",
+    "points": [
+      "专题披露截至 2026 年 8 月获批 106 个项目，覆盖 15 个邦与 30 类产品。",
+      "其所称政策覆盖 PCB、连接器、摄像头模组、材料与资本设备等多个环节。",
+      "专题提到的行业目标和计划产能不能直接当作当前已实现的细分产品市占率。"
+    ],
+    "takeaway": "将公告日期与统计截至日期分开，以便正确识别“最新公告报道旧数据”的情形。",
+    "sourceUrl": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=151016&lang=1&reg=48",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "ECMS",
+      "PCB",
+      "产业链",
+      "数据口径"
+    ]
+  },
+  {
+    "slug": "india-semiconductor-background-sept-2026",
+    "date": "2026-09-17",
+    "publishedAt": "2026-09-17",
+    "checkedAt": "2026-09-24",
+    "title": "印度官方发布半导体制造进度专题：设计、制造与封测分开追踪",
+    "category": "半导体",
+    "kind": "专题解读",
+    "excerpt": "专题资料介绍印度半导体项目涉及的多条技术路线和不同建设阶段。",
+    "points": [
+      "官方资料回顾 2026 年 7 月获批的 Semicon 2.0 计划。",
+      "资料强调芯片设计、前道制造、先进封装、设备、材料与技术人才等领域。",
+      "政策文中的获批、预计产出与实际商业生产应分开记录。"
+    ],
+    "takeaway": "服务器和 AI 产业研究必须核对芯片类别、制程和产能，不能把封装设施误写为 GPU 晶圆制造。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2311220&lang=2&reg=48",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "半导体",
+      "封测",
+      "供应链"
+    ]
+  },
+  {
+    "slug": "india-whole-industry-2026",
+    "date": "2026-09-23",
+    "publishedAt": "2026-09-23",
+    "checkedAt": "2026-09-24",
+    "title": "印度发布跨电子产业环节协同专题：元器件、材料和封装关联增强",
+    "category": "产业政策",
+    "kind": "专题解读",
+    "excerpt": "印度政府专题提及电子元器件、半导体、封装、材料与终端应用之间的协同需求。",
+    "points": [
+      "公开资料讨论不同制造环节的相互依赖。",
+      "政策专题不等于具体项目已经获得批准或任何第三方存在不当行为。",
+      "可将产业链关系用于识别企业合作所需的许可、材料和质量验证要素。"
+    ],
+    "takeaway": "平台可建立跨行业关联和来源更新记录，但不能把一般产业协同直接解释为针对中国企业的秘密行动。",
+    "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2313743&lang=1&reg=3",
+    "sourceLabel": "印度政府新闻局 PIB",
+    "sourceType": "政府原始资料",
+    "verification": "已核对原始公告；项目与政策后续状态需持续跟踪",
+    "tags": [
+      "产业链",
+      "行业协作",
+      "电子制造"
+    ]
+  }
+]

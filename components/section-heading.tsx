@@ -1,0 +1,3 @@
+import Link from "next/link";
+import {ArrowRight} from "lucide-react";
+export function SectionHeading({eyebrow,title,description,href,action}:{eyebrow:string,title:string,description?:string,href?:string,action?:string}){return <div className="mb-7 flex flex-wrap items-end justify-between gap-5"><div><div className="eyebrow">{eyebrow}</div><h2 className="mt-2 text-2xl font-extrabold tracking-tight text-navy sm:text-3xl">{title}</h2>{description&&<p className="mt-2 text-sm leading-7 text-[#6d7e86]">{description}</p>}</div>{href&&<Link href={href} className="inline-flex items-center gap-2 text-sm font-bold text-brand hover:gap-3">{action??"查看全部"}<ArrowRight size={17}/></Link>}</div>}

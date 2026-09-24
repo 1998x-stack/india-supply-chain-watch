@@ -1,0 +1,39 @@
+{
+  "name": "india-supply-chain-watch",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate",
+    "test:content": "node tests/content-check.mjs",
+    "test:project": "node tests/project-check.mjs",
+    "test:syntax": "node tests/syntax-check.cjs",
+    "test": "npm run test:content && npm run test:project && npm run test:syntax && npm run test:trending",
+    "test:trending": "node tests/trending-check.mjs"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.0",
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "prisma": "^6.16.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

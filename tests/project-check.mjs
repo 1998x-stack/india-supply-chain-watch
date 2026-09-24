@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {existsSync,readFileSync} from 'node:fs';
+const files=['app/page.tsx','app/insights/page.tsx','app/insights/[slug]/page.tsx','app/dossiers/page.tsx','app/dossiers/[slug]/page.tsx','data/dossiers.ts','app/projects/page.tsx','app/sources/page.tsx','app/submissions/page.tsx','app/submit/page.tsx','app/about/page.tsx','app/admin/page.tsx','app/api/submissions/route.ts','app/api/admin/login/route.ts','app/api/admin/reports/[id]/route.ts','prisma/schema.prisma','data/articles.json','data/projects.json','README.md','.env.example'];
+for(const file of files) assert(existsSync(new URL('../'+file,import.meta.url)),`missing ${file}`);
+const schema=readFileSync(new URL('../prisma/schema.prisma',import.meta.url),'utf8');
+assert(schema.includes('PENDING') && schema.includes('PUBLISHED') && schema.includes('contactEmail'));
+const route=readFileSync(new URL('../app/api/submissions/route.ts',import.meta.url),'utf8');
+assert(route.includes('siteverify')&&route.includes('status:"PENDING"'));
+const projects=readFileSync(new URL('../app/projects/page.tsx',import.meta.url),'utf8');
+assert(projects.includes('官方公布获批')&&projects.includes('sourceUrl'));
+console.log(`PASS: ${files.length} project paths exist; source-linked project tracker present; private intake defaults to PENDING; Turnstile verification path exists.`);

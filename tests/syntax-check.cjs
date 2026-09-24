@@ -1,0 +1,5 @@
+const fs=require('fs');const path=require('path');const cp=require('child_process');const ts=require(path.join(path.dirname(fs.realpathSync(cp.execFileSync('which',['tsc'],{encoding:'utf8'}).trim())),'..','lib','typescript.js'));
+let total=0,errors=0;
+function visit(root){for(const entry of fs.readdirSync(root,{withFileTypes:true})){const file=path.join(root,entry.name);if(entry.isDirectory())visit(file);else if(/\.(ts|tsx)$/.test(entry.name)){const source=fs.readFileSync(file,'utf8');const result=ts.transpileModule(source,{fileName:file,reportDiagnostics:true,compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext,jsx:ts.JsxEmit.Preserve,isolatedModules:true}});total++;for(const diag of result.diagnostics||[]){if(diag.category===ts.DiagnosticCategory.Error){console.error(file,ts.flattenDiagnosticMessageText(diag.messageText,'\n'));errors++;}}}}}
+visit('app');visit('components');visit('lib');visit('data');
+if(errors){console.error(`FAIL: ${errors} syntax errors across ${total} source files`);process.exit(1);}console.log(`PASS: ${total} TypeScript/TSX files transpile without syntax diagnostics (dependencies/build not checked).`);
