@@ -1,8 +1,24 @@
-generator client { provider = "prisma-client-js" }
-datasource db { provider = "postgresql" url = env("DATABASE_URL") }
+generator client {
+  provider = "prisma-client-js"
+}
 
-enum ReportStatus { PENDING REVIEWING PUBLISHED REJECTED WITHDRAWN }
-enum ReportKind { EXPERIENCE CORRECTION }
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ReportStatus {
+  PENDING
+  REVIEWING
+  PUBLISHED
+  REJECTED
+  WITHDRAWN
+}
+
+enum ReportKind {
+  EXPERIENCE
+  CORRECTION
+}
 
 model Report {
   id           String       @id @default(cuid())
@@ -21,6 +37,7 @@ model Report {
   publishedAt  DateTime?
   createdAt    DateTime     @default(now())
   updatedAt    DateTime     @updatedAt
+
   @@index([status, createdAt])
   @@index([ipDigest, createdAt])
 }
