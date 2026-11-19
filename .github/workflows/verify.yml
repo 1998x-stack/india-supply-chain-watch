@@ -36,6 +36,8 @@ jobs:
         run: npx prisma generate
       - name: Validate sourced records and security contracts
         run: npm test
+      - name: Assert CSV exports match canonical JSON
+        run: npm run exports:check
       - name: Validate TypeScript
         run: npm run typecheck
       - name: Build production Next.js application

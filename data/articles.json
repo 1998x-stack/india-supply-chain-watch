@@ -697,5 +697,84 @@
       "行业协作",
       "电子制造"
     ]
+  },
+  {
+    "slug": "pcb-tools-final-findings-2026",
+    "kind": "贸易救济调查进展",
+    "category": "贸易与合规",
+    "date": "2026-09-25",
+    "publishedAt": "2026-09-25",
+    "checkedAt": "2026-11-19",
+    "title": "印度 PCB Tools 反倾销案公布最终调查结论：尚需核对征税通知",
+    "excerpt": "印度 DGTR 案件 06/46/2025-DGTR 的官方时间线显示，2026 年 9 月 25 日已发布 Final Findings，案件已不再停留在听证阶段。",
+    "takeaway": "应区分调查机关最终调查结论与财政/海关部门正式征税措施；仅凭 Final Findings 不应声称相关进口货物已经实际征税。",
+    "points": [
+      "涉案产品为 Printed Circuit Board Tools，来源中国，案件号 06/46/2025-DGTR；与裸 PCB 反倾销案不同。",
+      "DGTR 公开案件时间线：2025 年 9 月立案、2026 年 7 月听证、2026 年 9 月 25 日发布 Final Findings。",
+      "尚未在本轮核验到可证明具体税率和正式实施日期的独立海关征税通知；产品范围、税则号及措施生效状态均需继续查证。"
+    ],
+    "sourceLabel": "印度贸易救济总局 DGTR",
+    "sourceUrl": "https://dgtr.gov.in/en/anti-dumping-cases/anti-dumping-investigation-concerning-imports-printed-circuit-board-tools",
+    "sourceType": "监管案件官方进度",
+    "verification": "2026-11-19 已核对 DGTR 案件页面 Final Findings 发布日期；未独立核验正式征税通知与税率",
+    "tags": [
+      "PCB工具",
+      "反倾销",
+      "调查结论",
+      "贸易救济"
+    ]
+  },
+  {
+    "slug": "ecms-november-2026-12-approvals",
+    "kind": "获批项目",
+    "category": "产业政策",
+    "date": "2026-11-06",
+    "publishedAt": "2026-11-06",
+    "checkedAt": "2026-11-19",
+    "title": "印度 ECMS 再批准 12 项申请：累计 118 项，新增多层 PCB 与铜箔等环节",
+    "excerpt": "印度 MeitY 2026 年 11 月 6 日公布新一批 12 项申请获批，新增项目涵盖多层 PCB、铜箔、继电器、特殊陶瓷、自动化设备等产业环节。",
+    "takeaway": "这是政府获批申请及投资/产值预测，不等于 118 座工厂已经投产；尤其要区分铜箔、覆铜板、PCB 裸板和 PCBA 等环节。",
+    "points": [
+      "本批新增 12 项获批申请，对应预计投资 ₹7,503 crore、预计产值 ₹39,045 crore、预计直接岗位 7,127 个。",
+      "官方累计口径：118 项获批申请、34 类产品、16 个邦、预计投资 ₹77,051 crore；并非已实现量产的项目数量。",
+      "本批获批申请名单明确包含 NeST ICELR Private Limited 的多层 PCB 项目和 Indo Asia Copper Limited 的铜箔项目，单项产能和建设进度仍需逐家核实。"
+    ],
+    "sourceLabel": "印度电子与信息技术部 / 政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333716&lang=2&reg=3",
+    "sourceType": "政府原始资料",
+    "verification": "2026-11-19 已核对 2026-11-06 官方公告中的批准数量、产品及主体；运营/交付状态未确认",
+    "tags": [
+      "ECMS",
+      "多层PCB",
+      "铜箔",
+      "电子制造",
+      "批准与量产区分"
+    ]
+  },
+  {
+    "slug": "india-fdi-revised-framework-aug-2026",
+    "kind": "投资政策实施进展",
+    "category": "贸易与合规",
+    "date": "2026-08-21",
+    "publishedAt": "2026-08-21",
+    "checkedAt": "2026-11-19",
+    "title": "印度披露接壤国家投资修订政策实施进展：截至 8 月 20 日申报 29 项",
+    "excerpt": "印度 PIB 公布：按 2026 年修订后的 FDI 框架，截至 8 月 20 日共报告 29 项投资，拟议投资额 ₹4,895.65 crore。",
+    "takeaway": "部分不超过 10% 的非控制性接壤国家受益所有权可在满足条件时走自动途径；不能将政策误读为所有中资股权、控制权或行业均无需审批。",
+    "points": [
+      "官方公布的 29 项投资及 ₹4,895.65 crore 为截至 2026 年 8 月 20 日的报告值，不能视作当前年度实际到账资金。",
+      "Press Note 2 (2026) 及 2026 年 5 月 1 日的相关外汇规则修订，明确了在适用条件下的非控制性少数权益安排。",
+      "股权结构、受益所有权、行业准入、信息报告与可能的政府审批需按具体投资交易另行审查。"
+    ],
+    "sourceLabel": "印度工商部 / 政府新闻局 PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2301992&lang=1&reg=48",
+    "sourceType": "政府政策实施进展",
+    "verification": "2026-11-19 核对 PIB 2026-08-21 报告；不代替逐项投资审查或最新监管意见",
+    "tags": [
+      "FDI",
+      "跨境投资",
+      "政策修订",
+      "受益所有权"
+    ]
   }
 ]
