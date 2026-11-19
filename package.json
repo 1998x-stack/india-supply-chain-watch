@@ -12,10 +12,13 @@
     "test:content": "node tests/content-check.mjs",
     "test:project": "node tests/project-check.mjs",
     "test:syntax": "node tests/syntax-check.cjs",
-    "test": "npm run test:content && npm run test:project && npm run test:syntax && npm run test:trending && npm run test:ops",
+    "test": "npm run test:content && npm run test:project && npm run test:syntax && npm run test:trending && npm run test:ops && npm run test:official",
     "test:trending": "node tests/trending-check.mjs",
     "smoke": "node scripts/smoke.mjs",
-    "test:ops": "node tests/ops-check.mjs"
+    "test:ops": "node tests/ops-check.mjs",
+    "exports:write": "node scripts/export-data.mjs --write",
+    "exports:check": "node scripts/export-data.mjs --check",
+    "test:official": "node tests/official-source-check.mjs"
   },
   "dependencies": {
     "@prisma/client": "^6.16.0",
