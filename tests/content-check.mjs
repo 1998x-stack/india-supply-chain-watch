@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const articles=JSON.parse(readFileSync(new URL('../data/articles.json',import.meta.url),'utf8'));
 const projects=JSON.parse(readFileSync(new URL('../data/projects.json',import.meta.url),'utf8'));
-const current='2026-09-24';
+// Use the actual calendar day rather than freezing all future source updates in September 2026.
+const current = new Date().toISOString().slice(0, 10);
 assert(articles.length>=25, 'at least 25 real, sourced research entries');
 const slugs=new Set();
 const categories=new Set(['产业政策','PCB / PCBA','半导体','服务器与电子制造','贸易与合规','企业经验']);
@@ -11,6 +12,7 @@ for (const [i,a] of articles.entries()) {
  assert(/^[a-z0-9-]+$/.test(a.slug),`invalid slug ${i}`);assert(!slugs.has(a.slug),`duplicate slug ${a.slug}`);slugs.add(a.slug);
  for(const key of ['date','publishedAt','checkedAt'])validDate(a[key],`${a.slug} ${key}`);
  assert(categories.has(a.category),`unknown article category ${a.slug}`);
+ assert(a.checkedAt>=a.publishedAt&&a.checkedAt>=a.date,`checkedAt predates the evidence: ${a.slug}`);
  assert(a.points.length>=2&&a.takeaway.length>15&&a.title.length>10,`incomplete ${a.slug}`);
  assert(a.tags.length>=1&&a.sourceType&&a.verification,`evidence metadata missing ${a.slug}`);
  const u=new URL(a.sourceUrl);assert(u.protocol==='https:'&&!u.hostname.endsWith('example.com'),`source URL ${a.slug}`);
@@ -21,6 +23,7 @@ const ids=new Set();
 for(const p of projects){
  assert(!ids.has(p.id),`duplicate project ID ${p.id}`);ids.add(p.id);
  validDate(p.approvedOn,p.id);validDate(p.verifiedAt,p.id);
+ assert(p.verifiedAt>=p.approvedOn,`verifiedAt predates approval: ${p.id}`);
  assert(p.name&&p.product&&p.stage==='官方公布获批'&&p.note&&p.sourceLabel,p.id);
  assert(new URL(p.sourceUrl).protocol==='https:',p.id);
 }
