@@ -1,6 +1,12 @@
 # 印链观察 · India Supply Chain Watch
 
-面向中国企业的印度产业政策、PCB/PCBA、半导体与跨境合作信息平台。**本仓库是可部署的 MVP 源代码，不是已上线的网站。**
+面向中国企业的印度产业政策、PCB/PCBA、半导体与跨境合作信息平台。**2026-11-19 已核实 Vercel Production 部署状态为 `READY`**（最近成功构建 `4eee3f3`；尚不能替代生产域名的外部访问和业务验收）。公开研究资料上次核验于 **2026-09-24**，并非实时更新。
+
+## 已部署版本的运行与验收
+
+运行 `npm run typecheck`、`npm test`、`npm run build`，然后用 `npm run start -- --port 3137` 和 `SMOKE_BASE_URL=http://127.0.0.1:3137 npm run smoke` 执行**本地**12路由 HTTP 冒烟检查。`GET /api/health` 只验证公开内容服务，不检测数据库。CI 成功、Vercel `READY` 和实际生产业务正常是三个不同结论。
+
+注意：Vercel 当前生产环境的数据库、投稿、审核操作仍未通过独立验收。缺少完整配置时投稿保持关闭；不要为展示功能临时写入测试用户或真实敏感数据。
 
 ## 已实现功能
 
@@ -14,7 +20,7 @@
 
 **上线前注意：** 这是初始版本。尚未提供邮箱真实性验证、证据上传、身份审核、申诉工单、专业法律审校、验证码之外的分布式限流和完整审计日志。不应在没有运营审核人员与数据保护安排的情况下大规模开放投稿。只凭填写的“回应”类型无法证明投稿人就是相关企业的代表，审核时必须另行核对授权。
 
-## 1. 本地启动（Node.js 20+）
+## 1. 本地启动（Node.js 22+ 推荐）
 
 ```bash
 npm install
@@ -59,7 +65,11 @@ npm run db:push
 
 ## 4. GitHub + Vercel 部署
 
-1. 在自己的 GitHub 账户创建全新仓库，例如 `india-supply-chain-watch`。不要将源码上传至其他无关项目。
+**当前生产资产：** GitHub 仓库 `1998x-stack/india-supply-chain-watch`；Vercel 项目 `xiemings-projects/india-supply-chain-watch-2po3`；正式域名 `https://india-supply-chain-watch-2po3.vercel.app`。仓库主分支经 GitHub Actions 验证后由 Vercel Git 集成构建。生产部署 `READY` 不表示网站端到端验收完成。详情见 [生产部署与安全验收手册](docs/PRODUCTION_RUNBOOK.md)。
+
+下面是**自行新建另一套实例**的通用步骤，并非当前仓库需要再执行的首次导入操作：
+
+1. 在自己的 GitHub 账户创建新仓库。不要将源码上传至其他无关项目。
 2. 在项目根目录执行下面的命令（替换成自己实际仓库地址）：
 
 ```bash
@@ -120,11 +130,11 @@ Vercel Hobby 计划仅供个人非商业用途；拟作为商业信息服务经�
 - 单独建立 16 条项目记录，均对应印度政府公布的获批申请方；与待审核用户投诉完全隔离。
 - 资讯文章新增 `publishedAt`、`checkedAt`、`sourceType`、`verification` 和 `tags`，避免把旧事件当成最新发生事件。
 - 添加 `/dossiers`（三篇深度专题）、`/projects`（项目台账）和 `/sources`（原始来源目录），并将其纳入导航和 sitemap。
-- **真实生产部署尚未执行；本次测试为内容、文件结构和 TypeScript 转译语法检查，并不构成完整 npm 构建、数据库或安全端到端测试。**
+- **本节记录的是 2026-09-24 的历史阶段。** 2026-11-19 已确认 Next.js Production 构建成功；生产域名、数据库和审核流程的端到端验收仍需单独完成。
 
 ## 7. V3.0：GitHub Trending 式情报模式
 
-推荐 GitHub 仓库名称：`india-supply-chain-watch`，展示名：`印链观察 / India Supply Chain Watch`。这只是推荐名称；本交付不意味着已在 GitHub 创建该仓库。
+正式 GitHub 仓库已创建并投入版本管理：`1998x-stack/india-supply-chain-watch`。展示名为 `印链观察 / India Supply Chain Watch`。
 
 V3.0 将 `/` 改为 GitHub Trending 风格的列表页：深色导航、紧凑横向情报列表、主题侧栏、项目/专题入口、关键词搜索、行业筛选、今日/本周/本月/近一年/全部时间筛选、发布日期排序。原 `/insights`、`/projects`、`/dossiers`、`/sources` 及经审核的合作经验页面继续保留。
 

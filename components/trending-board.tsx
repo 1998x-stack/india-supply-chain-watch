@@ -19,6 +19,8 @@ const isoDay = (s:string) => /^\d{4}-\d{2}-\d{2}$/.test(s) ? s : "";
 const snapshot = articles.reduce((latest, a) => isoDay(a.checkedAt) > latest ? a.checkedAt : latest, "2026-09-24");
 const asUtc = (s:string) => new Date(`${s}T00:00:00Z`).getTime();
 const DAY = 86_400_000;
+const ageDays = Math.max(0, Math.floor((Date.now() - asUtc(snapshot)) / DAY));
+const snapshotIsOld = ageDays >= 30;
 const dateInWindow = (a:Article,days:number) => days===Infinity || (asUtc(snapshot)-asUtc(a.publishedAt)>=0 && asUtc(snapshot)-asUtc(a.publishedAt)<days*DAY);
 const categoriesCount = INDUSTRIES.slice(1).map(category=>({category,count:articles.filter(a=>a.category===category).length}));
 function urlFor(p:{since:string;category:string;q:string;sort:string}){const query=new URLSearchParams();if(p.since!=="all")query.set("since",p.since);if(p.category!=="全部")query.set("category",p.category);if(p.q)query.set("q",p.q);if(p.sort!=="newest")query.set("sort",p.sort);const qs=query.toString();return `/${qs?`?${qs}`:""}`;}
@@ -66,6 +68,7 @@ export function TrendingBoard({params}:{params:TrendParams}){
         <h1 className="mt-2 text-[30px] font-bold tracking-tight text-[#24292f] sm:text-[38px]">印度产业趋势 <span className="text-[#6e7781]">/ Trending</span></h1>
         <p className="mt-2 max-w-[850px] text-[14px] leading-7 text-[#57606a]">追踪印度电子制造、PCB、半导体及跨境贸易的公开动态。参考 GitHub Trending 的快速浏览与分类方式，用可核查的来源代替未经证实的传闻。</p>
         <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-[#57606a]"><span className="flex items-center gap-1"><ShieldCheck size={14}/>来源可追溯</span><span className="flex items-center gap-1"><Layers3 size={14}/>{articles.length} 条公开资料</span><span className="flex items-center gap-1"><CalendarClock size={14}/>数据快照 {snapshot}</span></div>
+        {snapshotIsOld && <p role="note" className="mt-4 max-w-[850px] rounded-lg border border-[#e8d1a9] bg-[#fff7e7] px-4 py-3 text-xs leading-6 text-[#865f29]">资料陈旧提醒：本库最近一次来源核验为 {snapshot}，距今约 {ageDays} 天。此站点并非实时新闻或政策监测服务；任何投资、贸易与合规判断，请先打开原始来源确认最新修订。</p>}
       </div>
     </section>
     <div className="container-page py-6 sm:py-8">
