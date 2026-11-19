@@ -206,5 +206,57 @@
     "sourceLabel": "印度政府新闻局 PIB",
     "verifiedAt": "2026-09-24",
     "note": "官方公告所述为项目获批，实际产能与投产进度需另行核实。"
+  },
+  {
+    "id": "project-17",
+    "name": "NeST ICELR Private Limited",
+    "product": "多层 PCB",
+    "sector": "PCB / PCBA",
+    "approvedOn": "2026-11-06",
+    "state": "官方公告未说明本项已投产",
+    "stage": "官方公布获批",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333716&lang=2&reg=3",
+    "sourceLabel": "印度电子与信息技术部 / 政府新闻局 PIB",
+    "verifiedAt": "2026-11-19",
+    "note": "2026-11-06 ECMS 官方公报确认相应申请获批；为本平台选择性收录，不代表本批 12 项全部入库；不据此推定建成、量产、实际投资额或交付能力。"
+  },
+  {
+    "id": "project-18",
+    "name": "Indo Asia Copper Limited",
+    "product": "PCB/电池供应链所用铜箔",
+    "sector": "PCB / PCBA",
+    "approvedOn": "2026-11-06",
+    "state": "官方公告未说明本项已投产",
+    "stage": "官方公布获批",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333716&lang=2&reg=3",
+    "sourceLabel": "印度电子与信息技术部 / 政府新闻局 PIB",
+    "verifiedAt": "2026-11-19",
+    "note": "2026-11-06 ECMS 官方公报确认相应申请获批；为本平台选择性收录，不代表本批 12 项全部入库；不据此推定建成、量产、实际投资额或交付能力。"
+  },
+  {
+    "id": "project-19",
+    "name": "Voltix Semicon Private Limited",
+    "product": "特种陶瓷",
+    "sector": "半导体",
+    "approvedOn": "2026-11-06",
+    "state": "官方公告未说明本项已投产",
+    "stage": "官方公布获批",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333716&lang=2&reg=3",
+    "sourceLabel": "印度电子与信息技术部 / 政府新闻局 PIB",
+    "verifiedAt": "2026-11-19",
+    "note": "2026-11-06 ECMS 官方公报确认相应申请获批；为本平台选择性收录，不代表本批 12 项全部入库；不据此推定建成、量产、实际投资额或交付能力。"
+  },
+  {
+    "id": "project-20",
+    "name": "Wipro Pari Robotics Private Limited",
+    "product": "工厂自动化与系统集成资本设备",
+    "sector": "服务器与电子制造",
+    "approvedOn": "2026-11-06",
+    "state": "官方公告未说明本项已投产",
+    "stage": "官方公布获批",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333716&lang=2&reg=3",
+    "sourceLabel": "印度电子与信息技术部 / 政府新闻局 PIB",
+    "verifiedAt": "2026-11-19",
+    "note": "2026-11-06 ECMS 官方公报确认相应申请获批；为本平台选择性收录，不代表本批 12 项全部入库；不据此推定建成、量产、实际投资额或交付能力。"
   }
 ]
