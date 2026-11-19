@@ -13,10 +13,12 @@ assert.ok(["搜索关键词","按行业筛选","按时间筛选","排序方式",
 assert.ok(board.includes('按公开资料的发布日期排序')&&board.includes('非流量热度榜')&&board.includes('并非实时抓取'));
 assert.ok(board.includes('dateInWindow(a,window.days)')&&board.includes('a.publishedAt.localeCompare')&&board.includes('safe')===false);
 assert.ok(page.includes('TrendingBoard')&&header.includes('Trending 趋势')&&css.includes('.trend-row'));
+assert.ok(board.includes("staleCount") && board.includes("核验 {dateText(a.checkedAt)}"),"record-level verification ages must be visible");
 const snapshot=records.map(a=>a.checkedAt).sort().at(-1);
 assert.ok(snapshot);
 const ms=date=>Date.parse(`${date}T00:00:00Z`);
 const count=days=>records.filter(a=>{const diff=ms(snapshot)-ms(a.publishedAt);return diff>=0&&diff<days*86400000}).length;
 assert.ok(count(1)<=count(7)&&count(7)<=count(30)&&count(30)<=records.length);
-assert.ok(count(7)>0&&count(30)>0,"current snapshot has articles in recent ranges");
+// A week with no published items is valid; never require fabricated news to pass CI.
+assert.ok(count(30)>0,"recent published items should exist for this source refresh");
 console.log(`PASS: Trending UI structure, transparent ranking, filters, ${records.length} source-linked entries; snapshot ${snapshot}, day/week/month = ${count(1)}/${count(7)}/${count(30)}.`);
