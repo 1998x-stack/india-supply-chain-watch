@@ -22,10 +22,13 @@ assert(submission.includes("!canAccept()"), "public intake must be disabled with
 assert(submission.includes('status:"PENDING"'), "submissions must enter private moderation");
 const admin = read("app/api/admin/reports/route.ts");
 assert(admin.includes("!requestIsAdmin(request)"), "admin listing must check session");
+const publicReports = read("app/submissions/page.tsx");
+assert(!publicReports.includes("editorNote"), "internal moderator notes must never be selected or rendered publicly");
+assert(publicReports.includes("publicTitle:true") && publicReports.includes("publicBody:true"), "public listing must select only reviewed publication fields");
 const sitemap = read("app/sitemap.ts");
 assert(sitemap.includes("a.checkedAt"), "sitemap last-modified must reflect research verification date");
 const smoke = read("scripts/smoke.mjs");
 for (const route of ["/", "/insights", "/projects", "/dossiers", "/sources", "/api/health", "/api/admin/reports"]) {
   assert(smoke.includes('path: "' + route + '"'), "missing smoke route " + route);
 }
-console.log("PASS: health scope, fail-closed intake, admin boundary, sitemap provenance and smoke-test coverage");
+console.log("PASS: health scope, fail-closed intake, admin boundary, sitemap provenance, moderated publication fields and smoke-test coverage");
